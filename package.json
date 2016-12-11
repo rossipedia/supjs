@@ -8,5 +8,8 @@
   },
   "author": "Bryan Ross <git@rossipedia.com>",
   "license": "MIT",
-  "repository": "rossipedia/supjs"
+  "repository": "rossipedia/supjs",
+  "engines": {
+    "node": ">=6.0"
+  }
 }
