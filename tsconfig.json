@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "lib": ["scripthost", "es2015"],
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "rootDir": "src",
+        "outDir": "lib"
+    }
+}

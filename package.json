@@ -2,7 +2,7 @@
   "name": "supjs",
   "version": "0.0.1",
   "description": "A simpler scaffolder",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,13 @@
   "repository": "rossipedia/supjs",
   "engines": {
     "node": ">=6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^0.0.2",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4"
   }
 }
