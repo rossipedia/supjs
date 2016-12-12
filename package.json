@@ -4,7 +4,7 @@
   "description": "A simpler scaffolder",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "Bryan Ross <git@rossipedia.com>",
   "license": "MIT",
@@ -14,10 +14,14 @@
   },
   "devDependencies": {
     "@types/node": "^0.0.2",
-    "typescript": "^2.1.4"
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "mkdirp": "^0.5.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "rimraf": "^2.5.4"
   }
 }

@@ -8,6 +8,10 @@
         "strictNullChecks": true,
         "alwaysStrict": true,
         "rootDir": "src",
-        "outDir": "lib"
-    }
+        "outDir": "lib"        
+    },
+    "exclude": [
+        "node_modules",
+        "testdir"        
+    ]
 }
